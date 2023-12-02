@@ -1,0 +1,138 @@
+Informação de C:\Program Files\TabWin\DADOS_SINAN_VIOLENCIAS\dados_violencia_local_ocorrencia_sinan_2010_2020.dbf
+
+Language driver  = 0
+Data atualização = 29/11/2023
+Num. Registros   = 410674
+Num. Campos      = 63
+Comp. registro   = 118
+Tamanho Total    = 48461582
+
+Estrutura:
+  1 SG_UF_NOT  C   2 0    1
+  2 ID_MUNICIP C   6 0    3
+  3 ANO_NASC   C   4 0    9
+  4 CS_SEXO    C   1 0   13
+  5 CS_RACA    C   1 0   14
+  6 CS_ESCOL_N C   2 0   15
+  7 DT_OCOR    D   8 0   17
+  8 HORA_OCOR  C   5 0   25
+  9 LOCAL_OCOR C   2 0   30
+ 10 LOCAL_ESPE C  30 0   32
+ 11 OUT_VEZES  C   1 0   62
+ 12 VIOL_OUTR  C   1 0   63
+ 13 VIOL_LEGAL C   1 0   64
+ 14 VIOL_INFAN C   1 0   65
+ 15 VIOL_NEGLI C   1 0   66
+ 16 VIOL_FINAN C   1 0   67
+ 17 VIOL_TRAF  C   1 0   68
+ 18 VIOL_SEXU  C   1 0   69
+ 19 VIOL_TORT  C   1 0   70
+ 20 VIOL_PSICO C   1 0   71
+ 21 VIOL_FISIC C   1 0   72
+ 22 AG_OUTROS  C   1 0   73
+ 23 AG_AMEACA  C   1 0   74
+ 24 AG_FOGO    C   1 0   75
+ 25 AG_ENVEN   C   1 0   76
+ 26 AG_QUENTE  C   1 0   77
+ 27 AG_CORTE   C   1 0   78
+ 28 AG_OBJETO  C   1 0   79
+ 29 AG_ENFOR   C   1 0   80
+ 30 AG_FORCA   C   1 0   81
+ 31 SEX_OUTRO  C   1 0   82
+ 32 SEX_EXPLO  C   1 0   83
+ 33 SEX_PORNO  C   1 0   84
+ 34 SEX_PUDOR  C   1 0   85
+ 35 SEX_ESTUPR C   1 0   86
+ 36 SEX_ASSEDI C   1 0   87
+ 37 LESAO_NAT  C   2 0   88
+ 38 LESAO_CORP C   2 0   90
+ 39 REL_OUTROS C   1 0   92
+ 40 REL_PROPRI C   1 0   93
+ 41 REL_POL    C   1 0   94
+ 42 REL_INST   C   1 0   95
+ 43 REL_PATRAO C   1 0   96
+ 44 REL_CUIDA  C   1 0   97
+ 45 REL_CONHEC C   1 0   98
+ 46 REL_IRMAO  C   1 0   99
+ 47 REL_DESCO  C   1 0  100
+ 48 REL_FILHO  C   1 0  101
+ 49 REL_EXNAM  C   1 0  102
+ 50 REL_NAMO   C   1 0  103
+ 51 REL_EXCON  C   1 0  104
+ 52 REL_CONJ   C   1 0  105
+ 53 REL_PAD    C   1 0  106
+ 54 REL_MAE    C   1 0  107
+ 55 REL_PAI    C   1 0  108
+ 56 AUTOR_ALCO C   1 0  109
+ 57 AUTOR_SEXO C   1 0  110
+ 58 REL_MAD    C   1 0  111
+ 59 CICL_VID   C   1 0  112
+ 60 VIOL_MOTIV C   2 0  113
+ 61 IDENT_GEN  C   1 0  115
+ 62 ORIENT_SEX C   1 0  116
+ 63 EVOLUCAO   C   1 0  117
+
+create table dados_violencia_local_ocorrencia_sinan_2010_2020(
+  sg_uf_not  char(2),
+  id_municip char(6),
+  ano_nasc   char(4),
+  cs_sexo    char(1),
+  cs_raca    char(1),
+  cs_escol_n char(2),
+  dt_ocor    date,
+  hora_ocor  char(5),
+  local_ocor char(2),
+  local_espe char(30),
+  out_vezes  char(1),
+  viol_outr  char(1),
+  viol_legal char(1),
+  viol_infan char(1),
+  viol_negli char(1),
+  viol_finan char(1),
+  viol_traf  char(1),
+  viol_sexu  char(1),
+  viol_tort  char(1),
+  viol_psico char(1),
+  viol_fisic char(1),
+  ag_outros  char(1),
+  ag_ameaca  char(1),
+  ag_fogo    char(1),
+  ag_enven   char(1),
+  ag_quente  char(1),
+  ag_corte   char(1),
+  ag_objeto  char(1),
+  ag_enfor   char(1),
+  ag_forca   char(1),
+  sex_outro  char(1),
+  sex_explo  char(1),
+  sex_porno  char(1),
+  sex_pudor  char(1),
+  sex_estupr char(1),
+  sex_assedi char(1),
+  lesao_nat  char(2),
+  lesao_corp char(2),
+  rel_outros char(1),
+  rel_propri char(1),
+  rel_pol    char(1),
+  rel_inst   char(1),
+  rel_patrao char(1),
+  rel_cuida  char(1),
+  rel_conhec char(1),
+  rel_irmao  char(1),
+  rel_desco  char(1),
+  rel_filho  char(1),
+  rel_exnam  char(1),
+  rel_namo   char(1),
+  rel_excon  char(1),
+  rel_conj   char(1),
+  rel_pad    char(1),
+  rel_mae    char(1),
+  rel_pai    char(1),
+  autor_alco char(1),
+  autor_sexo char(1),
+  rel_mad    char(1),
+  cicl_vid   char(1),
+  viol_motiv char(2),
+  ident_gen  char(1),
+  orient_sex char(1),
+  evolucao   char(1));
