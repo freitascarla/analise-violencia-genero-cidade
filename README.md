@@ -1,7 +1,7 @@
 #### <center> Projeto Final - {reprograma} </center>
 
 
-# <center> **Violência contra mulheres nas cidades** </center>
+# <center> **Violência contra mulheres nas cidades brasileiras** </center>
 
 
 - [Contexto e Objetivos](#-Objetivo)
@@ -17,9 +17,9 @@
 
 A violência urbana é uma realidade compartilhada por todos os brasileiros. Mas será que homens e mulheres enfrentam os mesmos desafios ao lidar com essa violência no espaço público? O medo que assombra as mulheres ao sair de casa é semelhante ao medo experimentado pelos homens?
 
-Este estudo tem como propósito analisar a influência do gênero na vivência da violência urbana. Buscamos compreender se as experiências de homens e mulheres diante da violência nos espaços urbanos são equiparáveis.
+Este estudo tem como propósito analisar a influência do gênero na vivência da violência urbana e compreender se as experiências de homens e mulheres diante da violência nos espaços urbanos são equiparáveis.
 
-O foco central é analisar as ocorrências de violência por gênero entre os anos 2010 de 2020 nos espaços públicos das cidades brasileiras. Nesse contexto, buscando identificar os tipos de violência mais prevalentes, mapear os locais de maior incidência e compreender os perfis dos principais agressores.
+O foco central é analisar as ocorrências de violência por gênero entre os anos de 2010 a 2020 nos espaços públicos das cidades brasileiras. Nesse contexto, buscando identificar os tipos de violência mais prevalentes, mapear os locais de maior incidência e compreender os perfis dos principais agressores.
 
 
 ## Coleta de Dados
@@ -97,11 +97,11 @@ Este projeto está com visualizações públicas no Tableau. Você pode acessar 
 
 O resultado desta análise constata que cerca de 62% das ocorrências de violência registradas entre 2010 e 2020 têm mulheres como as principais vítimas.
 
-Esses dados não apenas destacam a frequência com que as mulheres são afetadas, mas também evidenciam um aspecto preocupante: a violência sexual prevalece em cerca de 87% desses casos, seguido a outras formas de agressão, como violência psicológica/moral, tortura, tráfico humano e outros tipos de violência física.
+Esses dados não apenas destacam a frequência com que as mulheres são afetadas, mas também evidenciam um aspecto preocupante: a violência sexual prevalece, seguida a outras formas de agressão, como violência psicológica/moral, tortura, tráfico humano e outros tipos de violência física.
 
 O estupro e a exploração sexual se destacam como os tipos mais frequentemente registrados de violência sexual. Nos espaços públicos, a insegurança feminina vai além da simples preocupação com perdas materiais, revelando uma complexidade de medos e apreensões. Essas preocupações estão intimamente ligadas às estruturas sociais fundamentadas no patriarcado, perpetuando uma dinâmica de desigualdade na qual as mulheres frequentemente se encontram em uma posição de vulnerabilidade.
 
-Como complemento a esta análise, sugerimos a criação de indicadores específicos para avaliar a violência de gênero nos espaços urbanos, aliada ao desenvolvimento de uma plataforma colaborativa de mapeamento. A proposta com essa ferramenta é oferecer às autoridades uma visão abrangente da infraestrutura urbana, possibilitando a identificação e solução de questões que alimentam a insegurança e a violência contra as mulheres nas
+Como complemento a esta análise, sugerimos a criação de indicadores específicos para avaliar a violência de gênero nos espaços urbanos, aliada ao desenvolvimento de uma plataforma colaborativa de mapeamento. A proposta com essa ferramenta é oferecer às autoridades uma visão abrangente da infraestrutura urbana, possibilitando a identificação e solução de questões que alimentam a insegurança e a violência contra as mulheres nas cidades brasileiras.
 
 
 
